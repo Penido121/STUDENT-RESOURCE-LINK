@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    position: relative;
+    min-height: 100vh; 
+    overflow: auto;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,rgba(0,0,0,0.8)50%);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dcdcdc;
+}
+
+h1 {
+    color: #4a90e2;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #14101040;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+.link {
+    color: rgb(0, 123, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #f7ffe0;
+}
+
+
+body::before {
+    content: "";
+    background-image: url('2.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; 
+    opacity: 0.5; 
+    
+    
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 15px;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 100px;
+    height: 40px;
+    background: #ffffff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #332fff;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #000000;
+}
+
+.content span{
+    color: #000000;
+    font-size: 65px
+}

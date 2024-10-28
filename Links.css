@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('2.jpg'); /* Add your image here */
+    background-size: cover; /* This makes the image cover the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    position: relative;
+    min-height: 100vh;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgba(246, 86, 0, 0.4); 
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000000; /* Add a border to the cells */
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.7); /* Header background with transparency */
+    color: #ff7200; /* Header text color */
+}
+
+tr:nth-child(even) {
+    background-color: rgba(204, 0, 0, 0.05); /* Light grey for even rows */
+}
+
+tr:hover {
+    background-color: rgba(0, 123, 255, 0.3); /* Light blue on hover */
+}
+td {
+    padding: 10px; /* Space inside the cells */
+    text-align: left; /* Align text to the left */
+    font-size: 1em; /* Font size */
+    color: rgb(0, 0, 0); /* Text color */
+    border: 1px solid #000000; /* Border around the cells */
+    background-color: rgba(255, 255, 255, 0.45); 
+    position: relative;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+td:hover {
+    background-color: rgba(255, 2, 2, 0.075); 
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content .cn{
+    width: 100px;
+    height: 40px;
+    background: #ff000030;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+
+.cn:hover{
+    background-color: #000000;
+}
+
+.content span{
+    color: #000000;
+    font-size: 65px
+}
+.content .cn a{
+    text-decoration: none;
+    color: #000000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #ffffff;
+}
+
+.content span{
+    color: #000000;
+    font-size: 65px
+}
